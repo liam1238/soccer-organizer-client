@@ -10,8 +10,6 @@ import { AuthProvider, useAuth } from "./context/AuthContext";
 function AppContent() {
   const { user, isAdmin, signIn, signOut } = useAuth();
 
-  console.log(isAdmin);
-
   return (
     <div dir="rtl" className="p-4">
       <div className="flex justify-between items-center mb-4">
